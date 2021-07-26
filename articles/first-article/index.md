@@ -1,134 +1,218 @@
-# Markdown Tutorial
+# testing markdown here, this is a test article
 
-![](http://i.imgur.com/IMTN5cy.png)
+# h1 Heading 8-)
 
-Hello, welcome to my tutorial for markdown.  
-In this tutorial you will learn the most basics things about Markdown.  
-Spanish version available [here](https://github.com/LewisVo/Markdown-Tutorial/blob/master/Translation:Spanish.md).
-Portuguese version available [here](https://github.com/LewisVo/Markdown-Tutorial/blob/master/README_pt-BR.md).
-French version available [here](https://github.com/luongvo209/Markdown-Tutorial/blob/master/README_fr.md).
+## h2 Heading
 
----
+### h3 Heading
 
-Tables of contents
+#### h4 Heading
 
-1.  [What is Markdown?](#whatismarkdown)
-2.  [Why use Markdown?](#why)
-3.  [Tools for Markdown](#tools)
-4.  [Markdown Syntax](#syntax)
+##### h5 Heading
+
+###### h6 Heading
+
+## Horizontal Rules
 
 ---
 
-<div id='whatismarkdown'/>
+---
 
-## What is markdown ?
+---
 
-According to Wikipedia :
+## Typographic replacements
 
-> _Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor._
+Enable typographer option to see result.
 
-`SIMPLY: IT'S JUST ANOTHER TYPE OF TEXT FILE, LIKE .txt .doc ....( now it's .md :laughing:) AND IT HAS SOME SPECIAL SYNTAX.`
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
 
-<div id='why'/>
+test.. test... test..... test?..... test!....
 
-_There is no clearly defined Markdown standard. This has led to fragmentation as different vendors write their own variants of the language to correct flaws or add missing features.. A list of markdown flavour is available [here](https://github.com/jgm/CommonMark/wiki/Markdown-Flavors)._
+!!!!!! ???? ,, -- ---
 
-From now, this guide will mainly focus on Github Flavoured Markdown.
+"Smartypants, double quotes" and 'single quotes'
 
-## Why use markdown?
+## Emphasis
 
-Because it's :
+**This is bold text**
 
-- **EZ** : The syntax is so easy that you can learn in a minute or two then write without noticing anything weirdo or geeky.
-- **FAST** : It saves time compared to other types of text files/formats. It helps boost the productivity and workflows of writer.
-- **CLEAN** : Both the syntax and output are clean, not messy with our eyes and simple to manage.
-- **FLEXIBLE** : With just a little set-up, your text will be translated cross any platform out there, editable in any text-editing software and convertible to a wide array of formats.
-<br></br>
-**In short**, normal users will find it useful in any cases, especially when you are in need of something better than plain text but less functional than Microsoft Word.  
-**For Developers**, if you are lazy to write HTML code , you will love markdown. **Moreover**, **Github** and many sites favor markdown for readme file of projects. That means you gonna meet markdown in your life one way or another.
-<div id='tools'/>
+**This is bold text**
 
-## Tools for markdown
+_This is italic text_
 
-As said above, any editors can be used to edit markdown. However, there are a few tools that may be useful for you when it comes to edit markdown.
+_This is italic text_
 
-- **[_Stackedit_](https://stackedit.io)** : Ok, you can stop reading right now. Click the link then start your markdown tour in an eziest way ever. Just type normal text then use your mouse, click click done. You dont have to know the syntax. It's good, but it will make you reliant and most developers prefers keyboards.
-- **[_Dillinger_](http://dillinger.io/)** : Online tool, support live view (split screen) and export to html. Nothing too special but very neat and handy.
-- **[_Typora_](https://www.typora.io/)** : Available for Mac and Windows, minimal, distraction free, live view seemlessly, bundled with a lot of other stuffs like Images, Lists, Tables, Code Fences, Math Blocks, YAML, Front Matters,Toc,...
-- **[_Atom_](https://atom.io/)** : popular hackable text editor (you may be using this). Yeah, this is versatile. Markdown Support? Just a part of it but is greatly built in.
-- **[_Minimalist Markdown_](https://chrome.google.com/webstore/detail/minimalist-markdown-edito/pghodfjepegmciihfhdipmimghiakcjf?hl=en)** : Chrome app. Works everywhere if you have Chrome installed ( this is my favorite one).
-- **[_Macdown_](http://macdown.uranusjr.com/)** : best for Mac.
-- **[_MarkdownPad_](http://markdownpad.com/)** : best for Windows.
-- **[_Remarkable_](https://remarkableapp.github.io/)** : best for Linux.
-- **[_GITBOOK_](http://www.gitbook.com/)** : GitBook is a modern publishing toolchain. Making both writing and collaboration easy. It does both support Markdown and have a close relation with the beloved Github.
-<div id='syntax'/>
+~~Strikethrough~~
 
-## Markdown Syntax
+## Blockquotes
 
-All Syntax can be found [here](https://daringfireball.net/projects/markdown/syntax) . It would take a lot of effort to describe syntax in text (they will be formatted) so please consider this table below for the whole basics syntax.
+> Blockquotes can also be nested...
+>
+> > ...by using additional greater-than signs right next to each other...
+> >
+> > > ...or with spaces between arrows.
 
-| Format                          | Syntax                                                                                                           | Example                                                                                    |
-| ------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Italic                          | \*Text\*                                                                                                         | _This is italic_                                                                           |
-| Bold                            | \*\*Bold\*\*                                                                                                     | **This is bold**                                                                           |
-| Inline links                    | \[Description text\](url here)                                                                                   | A [link](http://www.github.com)                                                            |
-| Images                          | \![Caption\](url to img)                                                                                         | An image ![image](http://i.imgur.com/hRLuez2.png)                                          |
-| Link+images                     | \[\![Caption\](url to img)\](url to a page)\]                                                                    | Click me [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com)                  |
-| Footnotes                       | I have more \[^1\] to say. \[^1\]: say it down here.                                                             | <a href="#section1">Hey,Please read the note below this table.                             |
-| Line breaks                     | Double space + enter                                                                                             |                                                                                            |
-| Unordered Lists                 | \* Item1 \*Item 2                                                                                                | <ul><li>item1</li><li>item2</li><li>item3</li><li>item4</li></ul>                          |
-| Ordered Lists                   | 1. Item a 2. Item b                                                                                              | <ol><li>itema</li><li>itemb</li><li>itemc</li><li>itemd</li></ol>                          |
-| Mixed Lists                     | 1. Item 1 \* item 1a                                                                                             | <ol><li>itema</li></ol><ul><li> item1</li></ul>                                            |
-| Block quote                     | \> Quoted text                                                                                                   | <blockquote>Stay Hungry Stay Foolish</blockquote>                                          |
-| Preformatted                    | Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t.                       | Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t. |
-| Code                            | \`Insert Code\`                                                                                                  | `cout<<"Hello world";`                                                                     |
-| Code block/ Syntax highlighting | \`\`\`insert code\`\`\`                                                                                          | <a href="#section1">Hey,Please read the note below this table.                             |
-| Headers                         | \#, \##, \###, \####, \#####, \###### (from h1 to h6)                                                            | <h3>This is a h3 header</h3>                                                               |
-| Strike through                  | \~~Insert text here\~~                                                                                           | ~~I am dead~~                                                                              |
-| Tables                          | \| Tables \| Are \| Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\| left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png)                                                        |
+## Lists
 
-<br></br>
-<br></br>
+Unordered
 
- <p id="section1">Note: **Footnote** actually doesnt render properly in table (and github preview), but it kinda looks like this </p>  
- 
- ![](http://i.imgur.com/pmeBr28.png)  
-   <br></br>
-   The same goes for **block code/syntax hightlighting**. It kinda looks like this picture :
-  
-![](http://i.imgur.com/z8KrxAz.png).
+- Create a list by starting a line with `+`, `-`, or `*`
+- Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    - Ac tristique libero volutpat at
+    * Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
+- Very easy!
 
-These characteristics are dependent upon each markdown flavour.
+Ordered
 
-## Useful notes :
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
 
-- Markdown allows you to use backslash escapes to generate literal characters which
-  would otherwise have special meaning in Markdown’s formatting syntax. One commonly used backslash escape character is : \  
-   `So? \*This\* isnt italic anymore but is surrounded by literal asterisks.`
+4. You can use sequential numbers...
+5. ...or keep all the numbers as `1.`
 
-- Youtube videos require some additional work.
+Start numbering with offset:
+
+57. foo
+1. bar
+
+## Code
+
+Inline `code`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+Block code "fences"
 
 ```
-They can't be added directly but you can add an image with a link to the video like this:
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+Sample text here...
 ```
 
-- Markdown does support Emojii :laughing: :laughing: :kissing_heart: :innocent: :green_heart: ( get some emojies [here](http://www.emoji-cheat-sheet.com/) )
-- You can use \<br/> tag to force line break.
-- Double space then enter if you want to make a new line if there is trouble making new lines.
-- Seeing is not as good as practicing. You can either create a markdown file for yourself to practice or do it online [here](http://www.markdowntutorial.com).
-- Footnotes and syntax highlighting are not part of the original markdown and are only supported by certain flavors of markdown (Feedback from [Sean Brody](https://goo.gl/ASZwEn))
-- Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
-- Markdown table support is designed to handle most tables for most people; it doesn’t cover all tables for all people. If you need complex tables you will need to create them by hand or with a tool specifically designed for your output format.
-- Using image and links, you can create some colorful assets at render time. Badges like this are typical examples that you can find all over Github [![Java](https://img.shields.io/badge/Java-%23FFac45.svg?&style=for-the-badge&logo=java&logoColor=white&color=yellow)](https://github.com/) [![HTML](https://img.shields.io/badge/HTML-%23FFac45.svg?&style=for-the-badge&logo=html5&logoColor=white&color=orange)](https://github.com/)
-  [![CSS](https://img.shields.io/badge/CSS-%23FFac45.svg?&style=for-the-badge&logo=css3&logoColor=white&color=blue)](https://github.com/)
-  [![JavaScript](https://img.shields.io/badge/JAVASCRIPT-%23FFac45.svg?&style=for-the-badge&logo=javascript&logoColor=white&color=yellow)](https://github.com/)
-  [![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-  [![Github](http://img.shields.io/badge/github-%231877F2.svg?&style=for-the-badge&logo=github&logoColor=white&color=black)](https://github.com/)
-  ( get some badges [here](https://shields.io/) )
+Syntax highlighting
 
-`I had such a pain making the above table possible`
+```js
+var foo = function (bar) {
+  return bar++;
+};
 
-###### Author: _Vo Tran Thanh Luong_. Also, I would like to thank all the contributors/translators for your work making this greater.
+console.log(foo(5));
+```
+
+## Tables
+
+| Option | Description                                                               |
+| ------ | ------------------------------------------------------------------------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default.    |
+| ext    | extension to be used for dest files.                                      |
+
+Right aligned columns
+
+| Option |                                                               Description |
+| -----: | ------------------------------------------------------------------------: |
+|   data | path to data files to supply the data that will be passed into templates. |
+| engine |    engine to be used for processing templates. Handlebars is the default. |
+|    ext |                                      extension to be used for dest files. |
+
+## Links
+
+[link text](http://dev.nodeca.com)
+
+[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+
+Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+
+
+Like links, Images also have a footnote style syntax
+
+![Alt text][id]
+
+With a reference later in the document defining the URL location:
+
+
+## Plugins
+
+The killer feature of `markdown-it` is very effective support of
+[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
+
+### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
+
+> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
+>
+> Shortcuts (emoticons): :-) :-( 8-) ;)
+
+see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
+
+### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
+
+- 19^th^
+- H~2~O
+
+### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
+
+++Inserted text++
+
+### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
+
+==Marked text==
+
+### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+
+Footnote 1 link[^first].
+
+Footnote 2 link[^second].
+
+Inline footnote^[Text of inline footnote] definition.
+
+Duplicated footnote reference[^second].
+
+[^first]: Footnote **can have markup**
+
+    and multiple paragraphs.
+
+[^second]: Footnote text.
+
+### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
+
+Term 1
+
+: Definition 1
+with lazy continuation.
+
+Term 2 with _inline markup_
+
+: Definition 2
+
+        { some code, part of Definition 2 }
+
+    Third paragraph of definition 2.
+
+_Compact style:_
+
+Term 1
+~ Definition 1
+
+Term 2
+~ Definition 2a
+~ Definition 2b
+
+### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
+
+This is HTML abbreviation example.
+
+It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
+
+\*[HTML]: Hyper Text Markup Language
+
+### [Custom containers](https://github.com/markdown-it/markdown-it-container)
+
+::: warning
+_here be dragons_
+:::
